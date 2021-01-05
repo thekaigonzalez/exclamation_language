@@ -1,0 +1,19 @@
+{
+  "init": {
+    "exforge.Version": "1.2",
+    "Excli": true,
+    "Exclamation.DefaultDir": "Scripts/excla/scripts/src",
+    "Exclamation.$$LDIR$$": "launch/Launcher"
+  },
+  "ext": {
+    "exclamation.Directories.Out": "%%USER%%"
+  },
+  "List.ListOfType=Build": {
+    "BuildInfo": {
+      "version": "1.2",
+      "Description": [
+        "Exclamation Is a Simple Language Which Makes typing code much easier!"
+      ]
+    }
+  }
+}
