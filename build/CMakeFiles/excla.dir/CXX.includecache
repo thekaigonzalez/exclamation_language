@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/seymo/Desktop/ExclamationLanguage/Scripts/excla/scripts/src/excla_language.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+Windows.h
+-
+tchar.h
+-
+

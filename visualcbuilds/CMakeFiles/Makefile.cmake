@@ -48,6 +48,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/excla.dir/DependInfo.cmake"
-  "CMakeFiles/excla_Export.dir/DependInfo.cmake"
-  "CMakeFiles/exclaLauncher.dir/DependInfo.cmake"
   )

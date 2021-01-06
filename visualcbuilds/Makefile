@@ -60,17 +60,6 @@ CMAKE_BINARY_DIR = C:\Users\seymo\Desktop\ExclamationLanguage\visualcbuilds
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -81,6 +70,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -127,59 +127,6 @@ excla\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla.dir\build
 .PHONY : excla\fast
 
-#=============================================================================
-# Target rules for targets named excla_Export
-
-# Build rule for target.
-excla_Export: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) excla_Export
-.PHONY : excla_Export
-
-# fast build rule for target.
-excla_Export\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla_Export.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla_Export.dir\build
-.PHONY : excla_Export\fast
-
-#=============================================================================
-# Target rules for targets named exclaLauncher
-
-# Build rule for target.
-exclaLauncher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) exclaLauncher
-.PHONY : exclaLauncher
-
-# fast build rule for target.
-exclaLauncher\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclaLauncher.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclaLauncher.dir\build
-.PHONY : exclaLauncher\fast
-
-Scripts\excla\scripts\src\excla_headers.obj: Scripts\excla\scripts\src\excla_headers.cpp.obj
-
-.PHONY : Scripts\excla\scripts\src\excla_headers.obj
-
-# target to build an object file
-Scripts\excla\scripts\src\excla_headers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla_Export.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla_Export.dir\Scripts\excla\scripts\src\excla_headers.cpp.obj
-.PHONY : Scripts\excla\scripts\src\excla_headers.cpp.obj
-
-Scripts\excla\scripts\src\excla_headers.i: Scripts\excla\scripts\src\excla_headers.cpp.i
-
-.PHONY : Scripts\excla\scripts\src\excla_headers.i
-
-# target to preprocess a source file
-Scripts\excla\scripts\src\excla_headers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla_Export.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla_Export.dir\Scripts\excla\scripts\src\excla_headers.cpp.i
-.PHONY : Scripts\excla\scripts\src\excla_headers.cpp.i
-
-Scripts\excla\scripts\src\excla_headers.s: Scripts\excla\scripts\src\excla_headers.cpp.s
-
-.PHONY : Scripts\excla\scripts\src\excla_headers.s
-
-# target to generate assembly for a file
-Scripts\excla\scripts\src\excla_headers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla_Export.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla_Export.dir\Scripts\excla\scripts\src\excla_headers.cpp.s
-.PHONY : Scripts\excla\scripts\src\excla_headers.cpp.s
-
 Scripts\excla\scripts\src\excla_language.obj: Scripts\excla\scripts\src\excla_language.cpp.obj
 
 .PHONY : Scripts\excla\scripts\src\excla_language.obj
@@ -207,33 +154,6 @@ Scripts\excla\scripts\src\excla_language.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\excla.dir\Scripts\excla\scripts\src\excla_language.cpp.s
 .PHONY : Scripts\excla\scripts\src\excla_language.cpp.s
 
-launch\Launcher\ex_command_init.obj: launch\Launcher\ex_command_init.cpp.obj
-
-.PHONY : launch\Launcher\ex_command_init.obj
-
-# target to build an object file
-launch\Launcher\ex_command_init.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclaLauncher.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclaLauncher.dir\launch\Launcher\ex_command_init.cpp.obj
-.PHONY : launch\Launcher\ex_command_init.cpp.obj
-
-launch\Launcher\ex_command_init.i: launch\Launcher\ex_command_init.cpp.i
-
-.PHONY : launch\Launcher\ex_command_init.i
-
-# target to preprocess a source file
-launch\Launcher\ex_command_init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclaLauncher.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclaLauncher.dir\launch\Launcher\ex_command_init.cpp.i
-.PHONY : launch\Launcher\ex_command_init.cpp.i
-
-launch\Launcher\ex_command_init.s: launch\Launcher\ex_command_init.cpp.s
-
-.PHONY : launch\Launcher\ex_command_init.s
-
-# target to generate assembly for a file
-launch\Launcher\ex_command_init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclaLauncher.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclaLauncher.dir\launch\Launcher\ex_command_init.cpp.s
-.PHONY : launch\Launcher\ex_command_init.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -243,17 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excla
-	@echo ... exclaLauncher
-	@echo ... excla_Export
-	@echo ... Scripts/excla/scripts/src/excla_headers.obj
-	@echo ... Scripts/excla/scripts/src/excla_headers.i
-	@echo ... Scripts/excla/scripts/src/excla_headers.s
 	@echo ... Scripts/excla/scripts/src/excla_language.obj
 	@echo ... Scripts/excla/scripts/src/excla_language.i
 	@echo ... Scripts/excla/scripts/src/excla_language.s
-	@echo ... launch/Launcher/ex_command_init.obj
-	@echo ... launch/Launcher/ex_command_init.i
-	@echo ... launch/Launcher/ex_command_init.s
 .PHONY : help
 
 

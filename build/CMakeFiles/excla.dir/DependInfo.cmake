@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/seymo/Desktop/ExclamationLanguage/Scripts/excla/scripts/src/excla_language.cpp" "C:/Users/seymo/Desktop/ExclamationLanguage/build/CMakeFiles/excla.dir/Scripts/excla/scripts/src/excla_language.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

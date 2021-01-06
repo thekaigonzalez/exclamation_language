@@ -20,12 +20,15 @@ vector <string> plates{ };
 
 vector <string> aliases{ };
 
+vector <string> pre_include_user {};
+
 int main( int argc , char* argv[] )
 {
 	// Default Compiler Sights
 	string function;
 	string param;
 	string delimiter;
+	string INCLUDEPATH;
 	char wtp[300];
 	// Pre-Installed Libraries
 	string module;
@@ -39,6 +42,7 @@ int main( int argc , char* argv[] )
 	string ioalias = "io";
 	// Define Integer Parameter
 	int dummy;
+	int value_ofint;
 	// Types
 	string typ;
 	// Include Handlers
@@ -144,6 +148,11 @@ int main( int argc , char* argv[] )
 				{
 					cout
 							<< input_variables[ dummy ];
+				}
+				else if ( placement == "integers")
+				{
+					cout
+						<< val_int[dummy];
 				}
 			}
 			else if ( function == "remember" )
@@ -290,6 +299,26 @@ int main( int argc , char* argv[] )
 							<< "File Not Found"
 							<< endl;
 				}
+			}
+			else if (function == "pre_include<int>") { // pre_include<template> (pre) <alias> as <value>
+				ifile >> param;
+				ifile >> INCLUDEPATH;
+				ifile >> delimiter;
+				ifile >> dummy;
+				sessionparams.push_back(param);
+				pre_include_user.push_back(INCLUDEPATH);
+				
+			}
+			else if (function == "!custom_preinclude")
+			{
+				ifile >> dummy;
+				CreateDirectory(_T("exclaMation_cache"), nullptr);
+				cout << "Getting " << pre_include_user[dummy] << " At Position " << dummy << endl;
+			}
+			else {
+				cout << "Use of undeclared Identifier, " << function << ". Aborting Compiler Process.\n\n";
+				system("pause");
+				abort();
 			}
 		}
 	}

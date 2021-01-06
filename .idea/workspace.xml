@@ -6,8 +6,6 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="exclamation_language" targetName="excla" />
-      <config projectName="exclamation_language" targetName="excla_Export" />
-      <config projectName="exclamation_language" targetName="exclaLauncher" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -17,18 +15,119 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8beb7351-79f1-4ea2-b229-0d32247466e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/customTargets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/Umbrella/umbrella/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8beb7351-79f1-4ea2-b229-0d32247466e4" name="Default Changelist" comment="insert fixes">
+      <change afterPath="$PROJECT_DIR$/functions/md/Positions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/md/basic-stdin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/md/cache.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/md/defining.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/md/for-loops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/md/templates.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/Umbrella/umbrella/File/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Umbrella/umbrella/File/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/cli/BetterCli/Working/working_directory_client_init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/cli/BetterCli/Working/working_directory_client_init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/cli/BetterCli/Working/working_directory_client_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/cli/BetterCli/Working/working_directory_client_init.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/excla/scripts/src/excla_language.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/excla/scripts/src/excla_language.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIENT_DEBUG.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exc_launch.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/Lib/cli/BetterCli/Working/working_directory_client_init.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/Scripts/excla/scripts/src/excla_language.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/Scripts/excla/scripts/src/excla_language.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/launch/Launcher/ex_command_init.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/exclaLauncher.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/Scripts/excla/scripts/src/excla_headers.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_Export.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/excla_launcher.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/excla.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exclamation_language.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/exclamation_language.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excla.exe" beforeDir="false" afterPath="$PROJECT_DIR$/excla.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/Launcher/ex_command_init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/launch/Launcher/ex_command_init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/la/launch/LauncherData/LauncherComponents/executeCommand.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch/la/launch/LauncherData/LauncherComponents/executeCommand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/md/including-and-preincluding.md" beforeDir="false" afterPath="$PROJECT_DIR$/functions/md/including-and-preincluding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.excla" beforeDir="false" afterPath="$PROJECT_DIR$/test.excla" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualcbuilds/exclamation_language.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/visualcbuilds/exclamation_language.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +162,15 @@
     <option name="directoryName" value="z5j48t1h" />
   </component>
   <component name="ProjectId" id="1maeK4AE9HZhMUG4VJSPTPxoWWC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -83,10 +185,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\seymo\Desktop\ExclamationLanguage" />
       <recent name="C:\Users\seymo\Desktop\ExclamationLanguage\Scripts\excla\scripts\src" />
       <recent name="C:\Users\seymo\Desktop\CBatch" />
       <recent name="C:\Users\seymo\Desktop\CBatch\cmake-build-debug" />
@@ -122,16 +225,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exclaLauncher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exclamation_language" TARGET_NAME="exclaLauncher" CONFIG_NAME="BuildFiles" RUN_TARGET_PROJECT_NAME="exclamation_language" RUN_TARGET_NAME="exclaLauncher">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="excla_Export" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exclamation_language" TARGET_NAME="excla_Export" CONFIG_NAME="BuildFiles" RUN_TARGET_PROJECT_NAME="exclamation_language" RUN_TARGET_NAME="excla_Export">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -151,8 +244,6 @@
       <item itemvalue="Batch.make-c-package" />
       <item itemvalue="CMake Application.exc_launch" />
       <item itemvalue="CMake Application.excla" />
-      <item itemvalue="CMake Application.excla_Export" />
-      <item itemvalue="CMake Application.exclaLauncher" />
     </list>
     <recent_temporary>
       <list>
@@ -173,8 +264,16 @@
       <workItem from="1609783384881" duration="1812000" />
       <workItem from="1609788547665" duration="22661000" />
       <workItem from="1609859780455" duration="603000" />
-      <workItem from="1609875737683" duration="11663000" />
+      <workItem from="1609875737683" duration="17706000" />
     </task>
+    <task id="LOCAL-00001" summary="insert fixes">
+      <created>1609899236298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609899236303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +290,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="insert fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

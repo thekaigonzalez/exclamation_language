@@ -1,5 +1,3 @@
 C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/excla.dir
-C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/rebuild_cache.dir
-C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/excla_Export.dir
-C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/exclaLauncher.dir
 C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/edit_cache.dir
+C:/Users/seymo/Desktop/ExclamationLanguage/visualcbuilds/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,6 @@
-!.INCLUDE greatness.exclaport
-call session 0
+!print Hello, World!
+!print System.outline
+
+io warn GG
+
+use of undeclared Identifier, "e"
