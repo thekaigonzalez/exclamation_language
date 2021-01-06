@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CLIENT_DEBUG.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\CLIENT_DEBUG.dir/objects.a @CMakeFiles\CLIENT_DEBUG.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CLIENT_DEBUG.dir/objects.a -Wl,--no-whole-archive  -o CLIENT_DEBUG.exe -Wl,--out-implib,libCLIENT_DEBUG.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CLIENT_DEBUG.dir\linklibs.rsp

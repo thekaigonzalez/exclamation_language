@@ -9,6 +9,3 @@
 using namespace v1p2::standard;
 using namespace line_;
 
-int main() {
-	Help("Hello");
-}

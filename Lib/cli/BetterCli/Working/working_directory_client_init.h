@@ -20,7 +20,7 @@ class working_directory_client_init
  */
 namespace v1p2::standard {
 		void get_(const char* _bar) {
-			printf_s("Getting %c", _bar);
+			printf("Getting %s", _bar);
 		}
 	}
 

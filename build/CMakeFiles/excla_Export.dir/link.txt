@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\excla_Export.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\excla_Export.dir/objects.a @CMakeFiles\excla_Export.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\excla_Export.dir/objects.a -Wl,--no-whole-archive  -o excla_Export.exe -Wl,--out-implib,libexcla_Export.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\excla_Export.dir\linklibs.rsp

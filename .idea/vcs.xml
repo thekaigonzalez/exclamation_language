@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Lib/RCP_dev-1.0.6/RCP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Lib/Umbrella/umbrella" vcs="Git" />
   </component>
