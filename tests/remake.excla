@@ -31,3 +31,17 @@ end)
 	end
 	return 0
 end)
+
+!ifndef X
+	!print X
+!endl
+
+!new DEBUG
+
+!.INCLUDE autopile.excla
+
+call session 0
+call plates 0
+
+end
+end

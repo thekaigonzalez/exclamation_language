@@ -37,3 +37,7 @@ $allocate 80 // Allocate 80 MEM \\
 	end
 end)
 
+!ifndef _current
+!define _current
+!endif // CURRENT \\
+end)

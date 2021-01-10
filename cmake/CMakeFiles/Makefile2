@@ -61,6 +61,7 @@ all: CMakeFiles\excla.dir\all
 all: CMakeFiles\exclang.dir\all
 all: CMakeFiles\exclatr.dir\all
 all: CMakeFiles\exclapar.dir\all
+all: CMakeFiles\ldip.dir\all
 
 .PHONY : all
 
@@ -74,6 +75,7 @@ clean: CMakeFiles\excla.dir\clean
 clean: CMakeFiles\exclang.dir\clean
 clean: CMakeFiles\exclatr.dir\clean
 clean: CMakeFiles\exclapar.dir\clean
+clean: CMakeFiles\ldip.dir\clean
 
 .PHONY : clean
 
@@ -184,6 +186,33 @@ exclapar: CMakeFiles\exclapar.dir\rule
 CMakeFiles\exclapar.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclapar.dir\clean
 .PHONY : CMakeFiles\exclapar.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ldip.dir
+
+# All Build rule for target.
+CMakeFiles\ldip.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=9,10 "Built target ldip"
+.PHONY : CMakeFiles\ldip.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ldip.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 0
+.PHONY : CMakeFiles\ldip.dir\rule
+
+# Convenience name for target.
+ldip: CMakeFiles\ldip.dir\rule
+
+.PHONY : ldip
+
+# clean rule for target.
+CMakeFiles\ldip.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\clean
+.PHONY : CMakeFiles\ldip.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

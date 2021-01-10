@@ -166,6 +166,19 @@ exclapar\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclapar.dir\build
 .PHONY : exclapar\fast
 
+#=============================================================================
+# Target rules for targets named ldip
+
+# Build rule for target.
+ldip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ldip
+.PHONY : ldip
+
+# fast build rule for target.
+ldip\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\build
+.PHONY : ldip\fast
+
 Scripts\excla\scripts\src\excla_headers.obj: Scripts\excla\scripts\src\excla_headers.cpp.obj
 
 .PHONY : Scripts\excla\scripts\src\excla_headers.obj
@@ -247,6 +260,33 @@ Scripts\excla\scripts\src\parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\exclapar.dir\Scripts\excla\scripts\src\parser.cpp.s
 .PHONY : Scripts\excla\scripts\src\parser.cpp.s
 
+bin\dip\dip\src\dip\main.obj: bin\dip\dip\src\dip\main.cpp.obj
+
+.PHONY : bin\dip\dip\src\dip\main.obj
+
+# target to build an object file
+bin\dip\dip\src\dip\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\bin\dip\dip\src\dip\main.cpp.obj
+.PHONY : bin\dip\dip\src\dip\main.cpp.obj
+
+bin\dip\dip\src\dip\main.i: bin\dip\dip\src\dip\main.cpp.i
+
+.PHONY : bin\dip\dip\src\dip\main.i
+
+# target to preprocess a source file
+bin\dip\dip\src\dip\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\bin\dip\dip\src\dip\main.cpp.i
+.PHONY : bin\dip\dip\src\dip\main.cpp.i
+
+bin\dip\dip\src\dip\main.s: bin\dip\dip\src\dip\main.cpp.s
+
+.PHONY : bin\dip\dip\src\dip\main.s
+
+# target to generate assembly for a file
+bin\dip\dip\src\dip\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ldip.dir\bin\dip\dip\src\dip\main.cpp.s
+.PHONY : bin\dip\dip\src\dip\main.cpp.s
+
 launch\Launcher\ex_command_init.obj: launch\Launcher\ex_command_init.cpp.obj
 
 .PHONY : launch\Launcher\ex_command_init.obj
@@ -286,6 +326,7 @@ help:
 	@echo ... exclang
 	@echo ... exclapar
 	@echo ... exclatr
+	@echo ... ldip
 	@echo ... Scripts/excla/scripts/src/excla_headers.obj
 	@echo ... Scripts/excla/scripts/src/excla_headers.i
 	@echo ... Scripts/excla/scripts/src/excla_headers.s
@@ -295,6 +336,9 @@ help:
 	@echo ... Scripts/excla/scripts/src/parser.obj
 	@echo ... Scripts/excla/scripts/src/parser.i
 	@echo ... Scripts/excla/scripts/src/parser.s
+	@echo ... bin/dip/dip/src/dip/main.obj
+	@echo ... bin/dip/dip/src/dip/main.i
+	@echo ... bin/dip/dip/src/dip/main.s
 	@echo ... launch/Launcher/ex_command_init.obj
 	@echo ... launch/Launcher/ex_command_init.i
 	@echo ... launch/Launcher/ex_command_init.s

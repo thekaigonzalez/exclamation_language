@@ -14,6 +14,8 @@ add_executable(exclang launch/Launcher/ex_command_init.cpp)
 add_executable(exclatr Scripts/excla/scripts/src/excla_headers.cpp)
 
 add_executable(exclapar Scripts/excla/scripts/src/parser.cpp)
+
+add_executable(ldip bin/dip/dip/src/dip/main.cpp)
 # Include your External CMake Directories here.
 # Including External CMake Lists Are easy, get started In functions/
 include_directories(extern Scripts/CMakeLists.txt)

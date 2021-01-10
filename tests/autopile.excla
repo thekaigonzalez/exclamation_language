@@ -92,9 +92,9 @@ end)
 
 // Insert Build Statements \\ 
 
-EXTENSTR build_out "--opt"
-EXTENSTR build_in get
-EXTENSTR build_gen ${DEFAULT}
+																				EXTENSTR build_out 	"--opt"
+																				EXTENSTR build_in 	get
+																				EXTENSTR build_gen 	${DEFAULT}
 
 // Long InDef Statements \\
 
