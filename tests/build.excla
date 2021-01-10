@@ -1,0 +1,8 @@
+EXTENSTR AcArtifact "new" // EXTEND AcArtififact "new" \\ 
+
+!define NewFact // Newfact \\ 
+	!ifndef Fact
+		!ifndef true // Nest True to Fact \\
+	!endl 
+	return 0 // RETURN! \\
+end)

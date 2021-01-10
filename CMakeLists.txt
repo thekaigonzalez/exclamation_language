@@ -2,12 +2,19 @@ cmake_minimum_required(VERSION 3.17)
 project(exclamation_language)
 
 set(CMAKE_CXX_STANDARD 14)
+#
 
 
 # Exclamation Execution Directories
 add_executable(excla
-        Scripts/excla/scripts/src/excla_language.cpp)
+        Scripts/excla/scripts/src/excla_language.cpp properties/props/functions/src/src_functions/ext/org/general/properties.hpp)
 
+add_executable(exclang launch/Launcher/ex_command_init.cpp)
 
+add_executable(exclatr Scripts/excla/scripts/src/excla_headers.cpp)
+
+add_executable(exclapar Scripts/excla/scripts/src/parser.cpp)
 # Include your External CMake Directories here.
 # Including External CMake Lists Are easy, get started In functions/
+include_directories(extern Scripts/CMakeLists.txt)
+include_directories(launch/Launcher/CMakeLists.txt)

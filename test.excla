@@ -1,6 +1,0 @@
-!print Hello, World!
-!print System.outline
-
-io warn GG
-
-use of undeclared Identifier, "e"

@@ -1,3 +1,0 @@
-C:/Users/seymo/Desktop/ExclamationLanguage/build/CMakeFiles/excla.dir
-C:/Users/seymo/Desktop/ExclamationLanguage/build/CMakeFiles/edit_cache.dir
-C:/Users/seymo/Desktop/ExclamationLanguage/build/CMakeFiles/rebuild_cache.dir

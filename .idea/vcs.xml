@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Lib/RCP_dev-1.0.6/RCP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Lib/Umbrella/umbrella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bin/RCP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bin/umbrella" vcs="Git" />
   </component>
 </project>

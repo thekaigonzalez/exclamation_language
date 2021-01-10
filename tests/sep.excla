@@ -1,0 +1,39 @@
+LIST=( K ) // Initializer \\
+
+LIST=( I )
+
+!define INIT
+
+
+
+
+!define PARAM
+
+
+
+!ifndef ISTREAM
+	!define Get
+	!define Use
+	!define make
+	!endl
+end)
+
+
+$allocate 80 // Allocate 80 MEM \\
+
+
+
+!endif SCRIPT 0
+
+
+!define COM
+
+!ifndef C
+
+	!define SRC 
+		!endif SRC
+	end
+		return 1
+	end
+end)
+

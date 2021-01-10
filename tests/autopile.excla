@@ -1,0 +1,121 @@
+// Debugging Thread
+// Infirmrary Static Programming \\
+
+
+!ifndef DEBUG_STATE
+
+
+	!define DEBUG
+	
+	
+!endif DEBUG 0 // DEBUG \\
+
+!ifndef RD
+
+
+	!define RC_DEBUG_EASY
+	
+	
+	!define NEW_BUG
+	
+	
+	!endif RC
+	
+	
+!endif RD 0
+
+// Thread Process \\
+// Seperate Thread Allows for MultiDebug Statements \\
+// MultiDebug Allows For Excla Programs to run in parralell \\
+
+!define EXCLA_DEBUG
+
+
+
+
+!define mation
+
+
+
+
+
+!define close
+
+
+
+!define new 
+
+
+/// Insert Exportable Threads \\
+
+
+!exportable DEBUG_THREAD
+
+
+!exportable PROCESS
+
+
+
+// Nesting \\
+// Nesting !ifndef Statements \\
+
+
+
+!ifndef LISTS
+		!define 			lists
+	!endif LISTS
+!endif LISTS 0
+!ifndef C
+	!ifndef CXX
+		!define CXX_DEBUG
+		!define CXX_CORE
+	!endif CXX_DEBUG_CORE 0
+!endif true 0
+
+// Insert STD: Overflows \\ 
+
+!define BASIC:STD:OVER
+
+// Insert Default STD:Over Statements \\ 
+
+!overflow (x) OV 1000
+
+!overflow (y) OVER 1000000
+	!endl
+end)
+
+!ifndef OVERFLOW:
+	!overflow (g) UNDER 10000000000
+	!define SUCCESS_OVER
+	end
+end)
+
+// Insert Build Statements \\ 
+
+EXTENSTR build_out "--opt"
+EXTENSTR build_in get
+EXTENSTR build_gen ${DEFAULT}
+
+// Long InDef Statements \\
+
+!define long
+!ifndef long 
+	$allocate 30
+	$allocate 50
+	$allocate 1000
+	!print NewData Is Being Installed
+	!define IND_NEST
+		!ifndef
+			!define INIT
+			!ifndef
+			!endif INIT
+		end)
+	end
+end
+
+!define X
+!ifndef X
+	!print X
+	!endl
+	!endif endl
+end)

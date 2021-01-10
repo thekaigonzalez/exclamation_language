@@ -1,0 +1,33 @@
+!define SCRIPT_INIT
+!ifndef SCRIPT_INIT
+	!define working
+	!set _current true
+	end
+end)
+
+
+!define SCRIPT
+	!ifndef SCRIPT
+		!print Script Confirmation
+			call session 0
+			end
+		end
+		!define src
+		
+		
+		
+		!define 		working
+		
+		!set build passing
+		end
+	end
+!define x
+	end
+		!print_raw Script Is On
+			end
+				end)
+			end
+		end
+	end
+	return 0
+end)
