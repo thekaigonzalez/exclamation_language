@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -G "CodeBlocks - NMake Makefiles" "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage"
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -G "CodeBlocks - MinGW Makefiles" "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage"
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/cmake

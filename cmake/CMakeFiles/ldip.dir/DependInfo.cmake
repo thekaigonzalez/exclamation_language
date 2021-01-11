@@ -6,13 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/bin/dip/dip/src/dip/main.cpp" "C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/cmake/CMakeFiles/ldip.dir/bin/dip/dip/src/dip/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../extern"
-  "../Scripts/CMakeLists.txt"
-  "../launch/Launcher/CMakeLists.txt"
   )
 
 # Targets to which this target links.

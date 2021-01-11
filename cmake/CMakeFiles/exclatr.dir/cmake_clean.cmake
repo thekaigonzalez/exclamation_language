@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/exclatr.dir/Scripts/excla/scripts/src/excla_headers.cpp.obj"
   "exclatr.exe"
   "exclatr.exe.manifest"
-  "exclatr.lib"
   "exclatr.pdb"
+  "libexclatr.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

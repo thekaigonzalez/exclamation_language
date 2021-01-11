@@ -1,0 +1,100 @@
+!define Core
+!define Logic
+
+
+!ifndef CORE
+	end
+!endif 0
+
+
+// Using !overflow & !define 
+// To get Simple Data From Package
+// \\
+
+
+!new core
+
+
+$allocate 90
+$allocate 0
+
+!ifndef API
+	!define API_CORE
+		end
+		!endif API_CORE
+	!endif CORE
+	!define NEW
+		end
+	end
+return 0
+
+// Inserting CXX Objects Into Exclamation \\ 
+
+!define MXX
+					!ifndef MXX
+						!define CXX
+						if cxx is true
+					!ifndef CXX_MXX
+				!define Core
+			remember UPPER 0
+		!endl
+	!endl
+	end
+end)
+
+
+
+// Adding Overflow Syntax \\
+
+!define CORE_O
+					if cxx is true
+						!overflow MID 1000
+						!overflow SRC 2000
+					!endl
+				!define while
+				!define Cxx
+				!define cores
+				!endif cores 0 // END! \\
+			end
+			!define CXX_MXX // Take CXX_MXX From Above Script \\
+					!endif MXX
+					end)
+					// Insert ALLOCATIONWALL. \\
+					!define ALLOCATIONWALL
+						!ifndef ALLOCATIONWALL
+								$allocate 30
+								$allocate 550
+								$allocate 600
+								$allocate 990
+								$allocate 1000
+								$allocate 500
+								$allocate 0
+																	!endif ALLOCATIONWALL
+																end
+															end
+														end)
+													end)
+												end)
+											return 1
+										return 0
+									end)
+								end)
+							end)
+						end
+					end
+				end
+			!define sep
+				!ifndef sep
+						!define MC
+								if Cxx is CXX_MXX
+									!define lAW
+								!endl
+							end
+						end
+					return 0
+					end
+				end)
+			end)
+		end)
+!endif src 0
+// Done.

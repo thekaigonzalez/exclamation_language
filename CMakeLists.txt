@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.17)
 project(exclamation_language)
 
 set(CMAKE_CXX_STANDARD 14)
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libstdc++ -static-libgcc")
+
 #
 
 
@@ -16,7 +18,6 @@ add_executable(exclatr Scripts/excla/scripts/src/excla_headers.cpp)
 add_executable(exclapar Scripts/excla/scripts/src/parser.cpp)
 
 add_executable(ldip bin/dip/dip/src/dip/main.cpp)
+
+add_executable(EXCLADEBUG targets.cpp)
 # Include your External CMake Directories here.
-# Including External CMake Lists Are easy, get started In functions/
-include_directories(extern Scripts/CMakeLists.txt)
-include_directories(launch/Launcher/CMakeLists.txt)

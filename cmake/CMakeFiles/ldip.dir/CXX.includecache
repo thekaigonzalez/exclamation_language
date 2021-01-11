@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/bin/dip/dip/src/dip/fsv.h
-iostream
--
-fstream
--
-
-C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/bin/dip/dip/src/dip/main.cpp
-iostream
--
-fstream
--
-vector
--
-tchar.h
--
-string
--
-limits
--
-fsv.h
-C:/Users/seymo/Desktop/Kai's Files/ExclamationLanguage/bin/dip/dip/src/dip/fsv.h
-

@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/excla.dir/Scripts/excla/scripts/src/excla_language.cpp.obj"
   "excla.exe"
   "excla.exe.manifest"
-  "excla.lib"
   "excla.pdb"
+  "libexcla.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
