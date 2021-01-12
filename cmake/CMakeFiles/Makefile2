@@ -75,9 +75,9 @@ CMAKE_BINARY_DIR = "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake
 all: CMakeFiles/excla.dir/all
 all: CMakeFiles/exclang.dir/all
 all: CMakeFiles/exclatr.dir/all
-all: CMakeFiles/EXCLADEBUG.dir/all
 all: CMakeFiles/exclapar.dir/all
 all: CMakeFiles/ldip.dir/all
+all: CMakeFiles/rocky.dir/all
 
 .PHONY : all
 
@@ -90,9 +90,9 @@ preinstall:
 clean: CMakeFiles/excla.dir/clean
 clean: CMakeFiles/exclang.dir/clean
 clean: CMakeFiles/exclatr.dir/clean
-clean: CMakeFiles/EXCLADEBUG.dir/clean
 clean: CMakeFiles/exclapar.dir/clean
 clean: CMakeFiles/ldip.dir/clean
+clean: CMakeFiles/rocky.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +103,7 @@ clean: CMakeFiles/ldip.dir/clean
 CMakeFiles/excla.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla.dir\build.make CMakeFiles/excla.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excla.dir\build.make CMakeFiles/excla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=3,4 "Built target excla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=1,2 "Built target excla"
 .PHONY : CMakeFiles/excla.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,7 +130,7 @@ CMakeFiles/excla.dir/clean:
 CMakeFiles/exclang.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclang.dir\build.make CMakeFiles/exclang.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclang.dir\build.make CMakeFiles/exclang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=5,6 "Built target exclang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=3,4 "Built target exclang"
 .PHONY : CMakeFiles/exclang.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,7 +157,7 @@ CMakeFiles/exclang.dir/clean:
 CMakeFiles/exclatr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclatr.dir\build.make CMakeFiles/exclatr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclatr.dir\build.make CMakeFiles/exclatr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=9,10 "Built target exclatr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=7,8 "Built target exclatr"
 .PHONY : CMakeFiles/exclatr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -178,40 +178,13 @@ CMakeFiles/exclatr.dir/clean:
 .PHONY : CMakeFiles/exclatr.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/EXCLADEBUG.dir
-
-# All Build rule for target.
-CMakeFiles/EXCLADEBUG.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=1,2 "Built target EXCLADEBUG"
-.PHONY : CMakeFiles/EXCLADEBUG.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/EXCLADEBUG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/EXCLADEBUG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 0
-.PHONY : CMakeFiles/EXCLADEBUG.dir/rule
-
-# Convenience name for target.
-EXCLADEBUG: CMakeFiles/EXCLADEBUG.dir/rule
-
-.PHONY : EXCLADEBUG
-
-# clean rule for target.
-CMakeFiles/EXCLADEBUG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/clean
-.PHONY : CMakeFiles/EXCLADEBUG.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/exclapar.dir
 
 # All Build rule for target.
 CMakeFiles/exclapar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make CMakeFiles/exclapar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make CMakeFiles/exclapar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=7,8 "Built target exclapar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=5,6 "Built target exclapar"
 .PHONY : CMakeFiles/exclapar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +211,7 @@ CMakeFiles/exclapar.dir/clean:
 CMakeFiles/ldip.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make CMakeFiles/ldip.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make CMakeFiles/ldip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=11,12 "Built target ldip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=9,10 "Built target ldip"
 .PHONY : CMakeFiles/ldip.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,6 +230,33 @@ ldip: CMakeFiles/ldip.dir/rule
 CMakeFiles/ldip.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make CMakeFiles/ldip.dir/clean
 .PHONY : CMakeFiles/ldip.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rocky.dir
+
+# All Build rule for target.
+CMakeFiles/rocky.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" --progress-num=11,12 "Built target rocky"
+.PHONY : CMakeFiles/rocky.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rocky.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rocky.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seymo\Desktop\Kai's Files\ExclamationLanguage\cmake\CMakeFiles" 0
+.PHONY : CMakeFiles/rocky.dir/rule
+
+# Convenience name for target.
+rocky: CMakeFiles/rocky.dir/rule
+
+.PHONY : rocky
+
+# clean rule for target.
+CMakeFiles/rocky.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/clean
+.PHONY : CMakeFiles/rocky.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

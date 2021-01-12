@@ -169,19 +169,6 @@ exclatr/fast:
 .PHONY : exclatr/fast
 
 #=============================================================================
-# Target rules for targets named EXCLADEBUG
-
-# Build rule for target.
-EXCLADEBUG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EXCLADEBUG
-.PHONY : EXCLADEBUG
-
-# fast build rule for target.
-EXCLADEBUG/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/build
-.PHONY : EXCLADEBUG/fast
-
-#=============================================================================
 # Target rules for targets named exclapar
 
 # Build rule for target.
@@ -206,6 +193,19 @@ ldip: cmake_check_build_system
 ldip/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ldip.dir\build.make CMakeFiles/ldip.dir/build
 .PHONY : ldip/fast
+
+#=============================================================================
+# Target rules for targets named rocky
+
+# Build rule for target.
+rocky: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rocky
+.PHONY : rocky
+
+# fast build rule for target.
+rocky/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/build
+.PHONY : rocky/fast
 
 Scripts/excla/scripts/src/excla_headers.obj: Scripts/excla/scripts/src/excla_headers.cpp.obj
 
@@ -288,6 +288,33 @@ Scripts/excla/scripts/src/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclapar.dir\build.make CMakeFiles/exclapar.dir/Scripts/excla/scripts/src/parser.cpp.s
 .PHONY : Scripts/excla/scripts/src/parser.cpp.s
 
+bin/cli/rocky/RockyFiles/rocky.obj: bin/cli/rocky/RockyFiles/rocky.cpp.obj
+
+.PHONY : bin/cli/rocky/RockyFiles/rocky.obj
+
+# target to build an object file
+bin/cli/rocky/RockyFiles/rocky.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/bin/cli/rocky/RockyFiles/rocky.cpp.obj
+.PHONY : bin/cli/rocky/RockyFiles/rocky.cpp.obj
+
+bin/cli/rocky/RockyFiles/rocky.i: bin/cli/rocky/RockyFiles/rocky.cpp.i
+
+.PHONY : bin/cli/rocky/RockyFiles/rocky.i
+
+# target to preprocess a source file
+bin/cli/rocky/RockyFiles/rocky.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/bin/cli/rocky/RockyFiles/rocky.cpp.i
+.PHONY : bin/cli/rocky/RockyFiles/rocky.cpp.i
+
+bin/cli/rocky/RockyFiles/rocky.s: bin/cli/rocky/RockyFiles/rocky.cpp.s
+
+.PHONY : bin/cli/rocky/RockyFiles/rocky.s
+
+# target to generate assembly for a file
+bin/cli/rocky/RockyFiles/rocky.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rocky.dir\build.make CMakeFiles/rocky.dir/bin/cli/rocky/RockyFiles/rocky.cpp.s
+.PHONY : bin/cli/rocky/RockyFiles/rocky.cpp.s
+
 bin/dip/dip/src/dip/main.obj: bin/dip/dip/src/dip/main.cpp.obj
 
 .PHONY : bin/dip/dip/src/dip/main.obj
@@ -342,33 +369,6 @@ launch/Launcher/ex_command_init.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exclang.dir\build.make CMakeFiles/exclang.dir/launch/Launcher/ex_command_init.cpp.s
 .PHONY : launch/Launcher/ex_command_init.cpp.s
 
-targets.obj: targets.cpp.obj
-
-.PHONY : targets.obj
-
-# target to build an object file
-targets.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/targets.cpp.obj
-.PHONY : targets.cpp.obj
-
-targets.i: targets.cpp.i
-
-.PHONY : targets.i
-
-# target to preprocess a source file
-targets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/targets.cpp.i
-.PHONY : targets.cpp.i
-
-targets.s: targets.cpp.s
-
-.PHONY : targets.s
-
-# target to generate assembly for a file
-targets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXCLADEBUG.dir\build.make CMakeFiles/EXCLADEBUG.dir/targets.cpp.s
-.PHONY : targets.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -377,12 +377,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... EXCLADEBUG
 	@echo ... excla
 	@echo ... exclang
 	@echo ... exclapar
 	@echo ... exclatr
 	@echo ... ldip
+	@echo ... rocky
 	@echo ... Scripts/excla/scripts/src/excla_headers.obj
 	@echo ... Scripts/excla/scripts/src/excla_headers.i
 	@echo ... Scripts/excla/scripts/src/excla_headers.s
@@ -392,15 +392,15 @@ help:
 	@echo ... Scripts/excla/scripts/src/parser.obj
 	@echo ... Scripts/excla/scripts/src/parser.i
 	@echo ... Scripts/excla/scripts/src/parser.s
+	@echo ... bin/cli/rocky/RockyFiles/rocky.obj
+	@echo ... bin/cli/rocky/RockyFiles/rocky.i
+	@echo ... bin/cli/rocky/RockyFiles/rocky.s
 	@echo ... bin/dip/dip/src/dip/main.obj
 	@echo ... bin/dip/dip/src/dip/main.i
 	@echo ... bin/dip/dip/src/dip/main.s
 	@echo ... launch/Launcher/ex_command_init.obj
 	@echo ... launch/Launcher/ex_command_init.i
 	@echo ... launch/Launcher/ex_command_init.s
-	@echo ... targets.obj
-	@echo ... targets.i
-	@echo ... targets.s
 .PHONY : help
 
 

@@ -19,5 +19,7 @@ add_executable(exclapar Scripts/excla/scripts/src/parser.cpp)
 
 add_executable(ldip bin/dip/dip/src/dip/main.cpp)
 
-add_executable(EXCLADEBUG targets.cpp)
+
+
+add_executable(rocky bin/cli/rocky/RockyFiles/rocky.cpp)
 # Include your External CMake Directories here.
